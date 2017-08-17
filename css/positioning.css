@@ -1,0 +1,42 @@
+
+/*Styles for positioning*/
+.positioning_main_wrapper{
+    width:90%vh;
+    height:100vh;
+    background: #333;
+    
+
+}
+
+.outer_box{
+    width:250px;
+    height:250px;
+    background: #656565;
+    margin:auto;
+     position: relative; 
+}
+
+.circle {
+    background: #19F3FF;
+    border-radius:50% ;
+    height: 100px;
+    width: 100px;
+    position:fixed;
+  
+}
+.circle:nth-child(1){
+    left:20px;
+    top:20px;
+}
+.circle:nth-child(2){
+    right:20px;
+    top:20px;
+}
+.circle:nth-child(3){
+    left:20px;
+    bottom:20px;
+}
+.circle:nth-child(4){
+    right:20px;
+    bottom:20px;
+}
